@@ -50,6 +50,7 @@ btnHold.addEventListener('click', ()=> {
             gameOver = false
         } else {
             switchPlayer()
+            console.log('Hello world');
         }
     }
 })
